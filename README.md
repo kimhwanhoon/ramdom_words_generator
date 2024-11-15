@@ -21,3 +21,9 @@ Fetch from `/api/v1/words` to get random words.
 ## Example
 
 ### Request
+
+`/api/v1/words?minWordLength=5&maxWordLength=10&numberOfWords=10`
+
+### Response
+
+`["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon"]`
