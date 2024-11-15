@@ -1,6 +1,8 @@
 # Random Words Generator
 
-Hi, this is random words generator app.
+Hello, this simple Next.js serverless app has a random word generation API feature.
+
+It uses the `an-array-of-english-words` library to generate random words. The development time was `30 minutes`.
 
 This is built only for api purpose.
 
