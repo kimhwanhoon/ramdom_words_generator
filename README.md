@@ -14,22 +14,43 @@ Key Features:
 
 Get started by making a GET request to `/api/v1/words` with your desired parameters.
 
-## Parameters
+## 🎮 API Parameters
 
-- `minWordLength`: minimum length of the word
-- `maxWordLength`: maximum length of the word
-- `numberOfWords`: number of words to return
+🔍 Fine-tune your word generation with these powerful parameters:
 
-## Returned Data
+- `minWordLength` → Set the minimum character count for each word
+- `maxWordLength` → Define the maximum word length ceiling
+- `numberOfWords` → Control your word collection size
 
-- `words`: array of words
+## 📦 Response Structure
 
-## Example
+Your API response will contain:
 
-### Request
+- `words` → A carefully curated array of random English words matching your criteria
 
-`/api/v1/words?minWordLength=5&maxWordLength=10&numberOfWords=10`
+## 🚀 Try It Out
 
-### Response
+### 🔰 Example Request
 
-`["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon"]`
+```code
+/api/v1/words?minWordLength=5&maxWordLength=10&numberOfWords=10
+```
+
+### 📤 Example Response
+
+```json
+{
+  "words": [
+    "apple",
+    "banana",
+    "cherry",
+    "date",
+    "elderberry",
+    "fig",
+    "grape",
+    "honeydew",
+    "kiwi",
+    "lemon"
+  ]
+}
+```
