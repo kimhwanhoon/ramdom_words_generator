@@ -1,14 +1,18 @@
 # Random Words Generator
 
-Hello, this simple Next.js serverless app has a random word generation API feature.
+Welcome to the Random Words Generator API - a lightning-fast, serverless solution built with Next.js that provides random English words on demand.
 
-It uses the `an-array-of-english-words` library to generate random words. The development time was `30 minutes`.
+This minimalist API harnesses the comprehensive `an-array-of-english-words` library to deliver random word selections with configurable parameters. Built as a focused, server-side API endpoint, it offers a clean interface for generating random word collections.
 
-This is built only for api purpose.
+Key Features:
 
-Only server side is supported.
+- ⚡️ Blazing fast serverless architecture
+- 🎯 Precise word length control
+- 📦 Simple REST API interface
+- 🔄 Customizable word count
+- 🛠 Built with modern Next.js
 
-Fetch from `/api/v1/words` to get random words.
+Get started by making a GET request to `/api/v1/words` with your desired parameters.
 
 ## Parameters
 
