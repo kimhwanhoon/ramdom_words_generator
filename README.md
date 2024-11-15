@@ -39,18 +39,19 @@ Your API response will contain:
 ### 📤 Example Response
 
 ```json
+JSON
 {
   "words": [
-    "apple",
-    "banana",
-    "cherry",
-    "date",
-    "elderberry",
-    "fig",
-    "grape",
-    "honeydew",
-    "kiwi",
-    "lemon"
+    "addies",
+    "oestrogen",
+    "callowness",
+    "effing",
+    "rontgens",
+    "glazed",
+    "fidgetier",
+    "cogies",
+    "yielded",
+    "preassign"
   ]
 }
 ```
